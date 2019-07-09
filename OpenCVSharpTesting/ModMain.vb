@@ -19,7 +19,7 @@
         'ThresholdTest()        = 13
         'VideoReadWriteTest()   = 14
 
-        Dim testVal As Integer = 7
+        Dim testVal As Integer = 14
 
         Select Case testVal
 

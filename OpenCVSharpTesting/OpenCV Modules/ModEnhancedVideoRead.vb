@@ -15,7 +15,7 @@ Module ModEnhancedVideoRead
 
         Dim sliderPos As Integer = 0
         Dim capRun As Integer = 1
-        'Dim capDontSet As Integer = 0
+        Dim capDontSet As Integer = 0
         Dim cap As New VideoCapture
         Dim track As CvTrackbar
         Dim myWindow As Window

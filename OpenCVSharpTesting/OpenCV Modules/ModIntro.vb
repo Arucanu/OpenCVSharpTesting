@@ -4,7 +4,7 @@ Module ModIntro
 
     Sub IntroTest()
 
-        Dim imgPath As String = AppDomain.CurrentDomain.BaseDirectory & "\Resources\Resources\mk2_generatedGreyPanelSingleHoleRadius.jpg"
+        Dim imgPath As String = AppDomain.CurrentDomain.BaseDirectory & "\Resources\mk2_generatedGreyPanelSingleHoleRadius.jpg"
 
         Dim img As Mat = Cv2.ImRead(imgPath, ImreadModes.Unchanged)
 
